@@ -88,6 +88,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "deeplinks:build:production",
+              "serveTarget": "deeplinks:serve:production"
+            },
+            "development": {
+              "buildTarget": "deeplinks:build:development",
+              "serveTarget": "deeplinks:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

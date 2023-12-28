@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "test-ng-deeplinks"
+  },
+  "targets": {
+    "test-ng-deeplinks": {
+      "hosting": {
+        "deeplinks": [
+          "test-ng-deeplinks"
+        ]
+      }
+    }
+  }
+}
