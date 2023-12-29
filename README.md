@@ -1,27 +1,27 @@
-# Deeplinks
+# Deeplinks in Angular Firebase with i18n
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+Issue with i18n on Firebase Hosting with Angular.
 
-## Development server
+1. Navigate to [https://test-ng-deeplinks.web.app](https://test-ng-deeplinks.web.app).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. Click the "English" or "Greek" buttons.
 
-## Code scaffolding
+3. Each button navigates to `/en` or `/fr` respectively.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+4. Should show each language, it does not.
 
-## Build
+Clearly I have misconfigured something. I just cannot find what I have misconfigured.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+How to reproduce:
 
-## Running unit tests
+1. Clone this repo.
+2. `npm install`
+3. `ng deploy`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+You will not be able to deploy, obviously, but you can see at least the build output.
 
-## Running end-to-end tests
+You can see the firebase hosting settings in my [`firebase.json`](firebase.json) file.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+You can see the i18n settings in my [`angular.json`](project.json) file.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+You can see the routing settings in my [`src/app/app.routes.ts`](src/app/app.routes.ts) file.

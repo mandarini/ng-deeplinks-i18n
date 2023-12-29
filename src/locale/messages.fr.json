@@ -1,6 +1,8 @@
 {
   "locale": "fr",
   "translations": {
+    "7633754075223722162": "French",
+    "5866254605255506989": "English",
     "7142233927764456998": "Cliquez pour naviguer.",
     "7280304101072084726": "{$START_LINK}Un{$CLOSE_LINK}",
     "6346202457270669767": "{$START_LINK}Deux{$CLOSE_LINK}",
