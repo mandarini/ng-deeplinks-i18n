@@ -1,0 +1,12 @@
+{
+  "locale": "fr",
+  "translations": {
+    "7142233927764456998": "Cliquez pour naviguer.",
+    "7280304101072084726": "{$START_LINK}Un{$CLOSE_LINK}",
+    "6346202457270669767": "{$START_LINK}Deux{$CLOSE_LINK}",
+    "1675289855039722266": "{$START_LINK}Trois{$CLOSE_LINK}",
+    "7192589229748958583": "un fonction!",
+    "1911486577568197957": "trois fonction!",
+    "569373459973897559": "deux fonction!"
+  }
+}
